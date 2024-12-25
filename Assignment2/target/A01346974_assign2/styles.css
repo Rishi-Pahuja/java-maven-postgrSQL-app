@@ -1,0 +1,34 @@
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+}
+
+.table-container 
+{
+    margin-right: 20px;
+}
+
+.forms-container 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container 
+{
+    border: 1px solid gray;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.result-message 
+{
+    color: red;
+}

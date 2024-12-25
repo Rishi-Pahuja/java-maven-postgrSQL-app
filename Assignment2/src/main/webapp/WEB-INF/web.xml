@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+	<display-name>Assignment2</display-name>
+
+	<servlet>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<servlet-class>ca.bcit.comp3601.assignment2.employee.presentation.controller.EmployeeServlet</servlet-class>
+
+		<init-param>
+			<param-name>db.driver</param-name>
+			<param-value>org.postgresql.Driver</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>db.url</param-name>
+			<param-value>Database address</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>db.user</param-name>
+			<param-value>DB Username</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>db.password</param-name>
+			<param-value>**********</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<url-pattern>/A01346974_assign2</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>A01346974_assign2</welcome-file>
+	</welcome-file-list>
+
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/JSPs/error.jsp</location>
+	</error-page>
+	
+</web-app>
