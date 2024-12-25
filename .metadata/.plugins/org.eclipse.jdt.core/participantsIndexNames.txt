@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\rishi\OneDrive\Desktop\GitHubProjects\A01346974_Assignment02\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1896233616.index
-\Assignment2\src\main\java
